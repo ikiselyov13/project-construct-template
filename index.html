@@ -28,7 +28,7 @@
             </p>
         </section>
         <section class="top-menu">
-            <div class="container header__wrp">
+            <div class="container wrapper">
                 <h2 class="visually-hidden">
                     navbar
                 </h2>
@@ -53,65 +53,73 @@
             </div>
         </section>
         <!--Центрирующий контейнер
-        <div class="container header__wrp"></div>-->  
+        <div class="container wrapper"></div>-->  
     </header>
-    <main>
+    <main class="main">
         <h1 class="visually-hidden">main page</h1>
-        <section class="story">
-            <h2 class="story__title">
-                our story
-            </h2>
-            <article class="story__founded">
-                <h3 class="visually-hidden">story founded</h3>
-                <p class="story__founded-title">
-                <p class="story__founded-title-text"></p>
-                <span class="story__founded-title-construct"></span>
-                <p class="story__founded-title-text"></p>
-                <p class="story__founded-text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                    laoreet dolore
-                    magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-                    euismod tincidunt ut
-                    laoreet dolore magna aliquam erat.
-                </p>
-            </article>
-            <h3 class="visually-hidden">story list</h3>
-            <ul class="story__list">
-                <li class="story__image">
-                    <h4>
-                        we plan
-                    </h4>
-                    <img src="./img/we-plan.jpg" alt="we-plan">
-                </li>
-                <li class="story__image">
-                    <h4>
-                        we manage
-                    </h4>
-                    <img src="./img/we-manage.jpg" alt="we-manage">
-                </li>
-                <li class="story__image">
-                    <h4>
-                        we build
-                    </h4>
-                    <img src="./img/we-build.jpg" alt="we-build">
-                </li>
-            </ul>
+        <section class="story container">
+            <div class="story__title">
+                <h2 class="story__title-text">our story</h2>
+                <div class="story__title-underline"></div>
+            </div>
+            <div class="wrapper">
+                <article class="story__founded">
+                    <h3 class="visually-hidden">story founded</h3>
+                    <p class="story__founded-title">
+                        Founded in 2011 by John Mathew Smith,
+                            <span class="story__founded-title-konstruct">Konstruct</span>
+                        has become the number one construction management firm
+                    </p>
+                    <p class="story__founded-text">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                        laoreet dolore
+                        magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                        euismod tincidunt ut
+                        laoreet dolore magna aliquam erat.
+                    </p>
+                </article>
+                <h3 class="visually-hidden">story list</h3>
+                <ul class="story__list">
+                    <li class="story__item story__item-plan">
+                        <p class="story__item-text">
+                            we<br/> plan
+                        </p>
+                    </li>
+                    <li class="story__item story__item-manage">
+                        <p class="story__item-text">
+                            we<br/> manage
+                        </p>
+                    </li>
+                    <li class="story__item story__item-build">
+                        <p class="story__item-text">
+                            we<br/> build
+                        </p>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <section class="capabilities">
-            <h2 class="capabilities__title">
-                our capabilities
-            </h2>
-            <p class="capabilities__text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                laoreet dolore
-                magna aliquam erat.
-            </p>
-            <button class="capabilities__button">
-                all services
-            </button>
-            <ul class="capabilities__list">
+        <section class="capabilities container">
+            <div class="capabilities__desc wrapper">
+                <div class="capabilities__title">
+                    <h2 class="capabilities__title-text">our capabilities</h2>
+                    <div class="capabilities__title-underline"></div>
+                </div>
+                <div class="capabilities__content">
+                    <p class="capabilities__text">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                        laoreet dolore
+                        magna aliquam erat.
+                    </p>
+                    <button type="button" class="capabilities__button-browse">
+                        <span class="capabilities__button-text">all services</span>
+                    </button>
+                </div>
+            </div>
+            <ul class="capabilities__list wrapper">
                 <li class="capabilities__item">
-                    <img src="./img/pencils.png" alt="pencils">
+                    <div class="capabilities__item-pic">
+                        <img src="./img/pencils.png" alt="pencils">
+                    </div>
                     <h3 class="capabilities__item-title">
                         project and construction management
                     </h3>
@@ -122,7 +130,9 @@
                     </p>
                 </li>
                 <li class="capabilities__item">
-                    <img src="./img/shop.png" alt="shop">
+                    <div class="capabilities__item-pic">
+                        <img src="./img/shop.png" alt="shop">
+                    </div>
                     <h3 class="capabilities__item-title">
                         structure audit and maintenance
                     </h3>
@@ -133,7 +143,9 @@
                     </p>
                 </li>
                 <li class="capabilities__item">
-                    <img src="./img/house.png" alt="house">
+                    <div class="capabilities__item-pic">
+                        <img src="./img/house.png" alt="house">
+                    </div>
                     <h3 class="capabilities__item-title">
                         factory construction and modeling
                     </h3>
@@ -146,7 +158,6 @@
             </ul>
         </section>
         <section class="city">
-            <img src="./img/city.jpg" alt="city">
             <h2 class="city__title">
                 Want to build something amazing?
             </h2>
