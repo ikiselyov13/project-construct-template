@@ -17,3 +17,15 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.main {
+    background: $white-bkg;
+    width: 1440px;
+}
+
+.footer {
+    width: 1440px;
+    margin: -1px 0 0 0;
+    background: $black-bkg;
+}
+
