@@ -1,0 +1,19 @@
+body {
+    font-family: Open Sans, sans-serif;
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}

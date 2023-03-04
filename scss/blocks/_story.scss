@@ -1,0 +1,99 @@
+.main {
+    background-color: $white-bkg;
+    width: 1440px;
+}
+
+.story {
+    min-height: 525px;
+}
+
+.story__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 57px 0 0 0;
+    min-height: 150px;
+}
+
+.story__title-text {
+
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 21px;
+    color: $grey-let;
+    text-transform: uppercase;
+}
+
+.story__title-underline {
+    width: 50px;
+    height: 2px;
+    margin: 10px 0 0 0;
+    background-color: $blue-let
+}
+
+.story__founded {
+    width: 405px;
+    min-height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.story__founded-title {
+    font-family: Open Sans;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 900;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: $grey-let
+}
+
+.story__founded-title-konstruct {
+    color: $blue-let
+}
+
+.story__founded-text {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.story__list {
+    display: flex;
+    justify-content: space-between;
+    min-height: 225px;
+    width: 490px;
+}
+
+.story__item {
+    width: 150px;
+    min-height: 225px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.story__item-text {
+    margin: 15px;
+    font-family: Open Sans;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    text-transform: uppercase;
+    color: $white-bkg;
+    font-weight: 900;
+}
+
+.story__item-plan {
+    background-image: url(../img/we-plan.jpg);
+}
+
+.story__item-manage {
+    background-image: url(../img/we-manage.jpg);
+}
+
+.story__item-build {
+    background-image: url(../img/we-build.jpg);
+}
