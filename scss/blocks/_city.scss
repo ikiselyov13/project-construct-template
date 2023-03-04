@@ -1,0 +1,49 @@
+.city {
+    min-height: 620px;
+}
+
+.city__transition {
+    min-height: 120px;
+    background: linear-gradient($white-bkg, white);
+}
+
+.city__pic {
+    min-height: 500px;
+    background-image: url(../img/city.png);
+    margin: -1px 0 0 0;
+}
+
+.city__pic-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.city__pic-content-title {
+    width: 350px;
+    min-height: 70px;
+    margin: 0 0 35px 0;
+    font-family: Open Sans;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: $grey-let;
+}
+
+.city__pic-content-button {
+    width: 150px;
+    height: 40px;
+    background: $blue-let;
+    border: none;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white-bkg;
+
+}

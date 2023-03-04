@@ -1,0 +1,14 @@
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    color: $white-let;
+}
+
+.copyright__text {
+    font-family: Open Sans;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.9px;
+}

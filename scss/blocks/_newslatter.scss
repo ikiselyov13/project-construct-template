@@ -1,0 +1,50 @@
+.newslatter {
+    width: 1440px;
+    min-height: 100px;
+    background: $black-bkg;
+    margin: -4px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newslatter__title {
+    margin: 0 70px 0 0;
+    font-family: Open Sans;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: $white-let;
+}
+
+.newslatter__subscribe-send {
+    width: 400px;
+    min-height: 40px;
+    display: flex;
+}
+
+.newslatter__subscribe-send-text {
+    width: 250px;
+    min-height: inherit;
+    padding: 0 0 0 16px;
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+}
+
+.newslatter__subscribe-send-button {
+    width: 150px;
+    min-height: inherit;
+    background: $blue-let;
+    border: none;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white-let;
+}

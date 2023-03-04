@@ -1,0 +1,131 @@
+.footer {
+    width: 1440px;
+    margin: -1px 0 0 0;
+    background: $black-bkg;
+}
+
+.topics {
+    min-height: 200px;
+    padding: 42px 0 0 0;
+    color: $white-let;
+}
+
+.topics__company {
+    width: 250px;
+    min-height: 150px;
+}
+
+.topics__company-title {
+
+    font-family: Open Sans;
+    font-size: 11px;
+    font-weight: lighter;
+    line-height: 13px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.topics__company-logo {
+    height: 21px;
+    margin: 20px 0 0 0;
+}
+
+.topics__company-text {
+    font-family: Open Sans;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.9px;
+    margin: 16px 0 0 0;
+}
+
+.topics__links-title {
+    font-family: Open Sans;
+    font-size: 11px;
+    font-weight: lighter;
+    line-height: 13px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.topics__links-content {
+    width: 300px;
+    min-height: 125px;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topics__links-list {
+    width: 78px;
+    min-height: inherit;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 0.9px;
+}
+
+.topics__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $white-let;
+}
+
+.topics__contact {
+    width: 140px;
+    min-height: 128px;
+}
+
+.topics__contact-title {
+    font-family: Open Sans;
+    font-size: 11px;
+    font-weight: lighter;
+    line-height: 13px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.topics__contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 140px;
+    min-height: 128px;
+    margin: 15px 0 0 0;
+    font-family: Open Sans;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: $white-let;
+}
+
+.topics__contact-item-link {
+    text-decoration: none;
+    color: $white-let;
+}
+
+.topics__icons {
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+    min-height: 13px;
+    margin: 30px 0 0 0;
+}
+
+.topics__icons-item {
+    width: 13px;
+    height: 13px;
+}
+
+.topics__icons-item-link-facebook {
+    filter: brightness(0) invert(1);
+}
+
+.topics__icons-item-link-twitter {
+    filter: brightness(0) invert(1);
+}
+
+.topics__icons-item-link-google {
+    filter: brightness(0) invert(1);
+}
