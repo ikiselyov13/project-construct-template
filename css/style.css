@@ -163,6 +163,12 @@ body {
   background: #171819;
 }
 
+@media (max-width: 939px) {
+  .container {
+    width: 620px;
+    margin: 0 auto;
+  }
+}
 .capabilities .capabilities__desc {
   margin: 120px 0 0 0;
 }
@@ -454,6 +460,11 @@ body {
   text-align: center;
 }
 
+@media (max-width: 939px) {
+  .top-menu {
+    width: 730px;
+  }
+}
 .topics {
   min-height: 200px;
   padding: 42px 0 0 0;
@@ -584,6 +595,7 @@ body {
   letter-spacing: 5.7px;
   text-align: center;
   color: white;
+  text-transform: uppercase;
 }
 .tower .tower__award {
   margin: 0 20px 0 0;
@@ -606,4 +618,20 @@ body {
   letter-spacing: 3.7px;
   text-align: center;
   color: white;
+  text-transform: uppercase;
+}
+
+@media (max-width: 939px) {
+  .tower {
+    width: 730px;
+    min-height: 390px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .tower .tower__konstruct {
+    margin: 42px 0 100px 0;
+  }
+  .tower .tower__scroll {
+    margin: 80px 0 0 0;
+  }
 }/*# sourceMappingURL=style.css.map */

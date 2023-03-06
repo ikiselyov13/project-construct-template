@@ -29,3 +29,10 @@ body {
     background: $black-bkg;
 }
 
+@media (max-width: $desktop-width) {
+    .container {
+        width: 620px;
+        margin: 0 auto;
+    }
+}
+

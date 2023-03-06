@@ -20,3 +20,9 @@
         text-align: center;
     }
 }
+
+@media (max-width: $desktop-width) {
+    .top-menu {
+        width: 730px;
+    }
+}
