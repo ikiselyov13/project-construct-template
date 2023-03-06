@@ -5,8 +5,7 @@
     }
     
     .capabilities__title {
-        display: flex;
-        flex-direction: column;
+        @include title-flex;
         min-height: 40px
     }
 
@@ -91,6 +90,35 @@
         margin: 13px 0 0 0;
         color: $grey-let;
 
+    }
+}
+
+@media (max-width: $desktop-width) {
+    .capabilities {
+
+        .capabilities__content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+        .capabilities__text {
+            margin: 20px 0 20px 0;
+            text-align: center;
+        }
+
+        .capabilities__item {
+            @include title-flex;
+            width: 450px;
+            min-height: 200px;
+            border: solid 1px $grey-bord;
+            margin: 0 0 25px 0;
+            padding: 22px 22px 22px 22px;
+        }
+
+        .capabilities__item-text {
+            text-align: center;
+
+        }
     }
 }
 

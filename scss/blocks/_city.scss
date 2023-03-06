@@ -1,5 +1,5 @@
 .city {
-    min-height: 620px;
+    min-height: 390px;
 
     .city__transition {
         min-height: 120px;
@@ -9,7 +9,7 @@
     .city__pic {
         min-height: 500px;
         background-image: url(../img/city.png);
-        margin: -1px 0 0 0;
+        margin: -4px 0 0 0;
     }
 
     .city__pic-content {
@@ -43,6 +43,21 @@
         text-transform: uppercase;
         color: $white-bkg;
 
+    }
+}
+
+@media (max-width: $desktop-width) {
+    .city {
+    
+        .city__transition {
+            min-height: 70px;
+            background: linear-gradient($white-bkg, white);
+        }
+
+        .city__pic {
+            background-size: cover;
+            min-height: 320px;
+        }
     }
 }
 

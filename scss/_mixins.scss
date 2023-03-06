@@ -9,3 +9,9 @@
     line-height: $line-height;
     color: $color;
 }
+
+@mixin title-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

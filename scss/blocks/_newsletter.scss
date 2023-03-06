@@ -1,11 +1,11 @@
-.newslatter {
+.newsletter {
     width: 1440px;
     min-height: 100px;
     background: $black-bkg;
-    margin: -4px 0 0 0;
+    margin: -6px 0 0 0;
     @include flex-center;
 
-    .newslatter__title {
+    .newsletter__title {
         margin: 0 70px 0 0;
         font-family: Open Sans;
         font-size: 22px;
@@ -15,13 +15,13 @@
         color: $white-let;
     }
     
-    .newslatter__subscribe-send {
+    .newsletter__subscribe-send {
         width: 400px;
         min-height: 40px;
         display: flex;
     }
 
-    .newslatter__subscribe-send-text {
+    .newsletter__subscribe-send-text {
         width: 250px;
         min-height: inherit;
         padding: 0 0 0 16px;
@@ -31,7 +31,7 @@
         letter-spacing: 0.1px;
     }
 
-    .newslatter__subscribe-send-button {
+    .newsletter__subscribe-send-button {
         width: 150px;
         min-height: inherit;
         background: $blue-let;
@@ -44,6 +44,17 @@
         text-align: center;
         text-transform: uppercase;
         color: $white-let;
+    }
+}
+
+@media (max-width: $desktop-width) {
+    .newsletter {
+        width: 730px;
+        @include title-flex;
+
+        .newsletter__title {
+            margin: 30px 0 30px 0;
+        }
     }
 }
 

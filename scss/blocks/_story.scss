@@ -2,9 +2,7 @@
     min-height: 525px;
 
     .story__title {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include title-flex;
         padding: 57px 0 0 0;
         min-height: 150px;
     }
@@ -49,6 +47,7 @@
     }
 
     .story__founded-text {
+        margin: 30px 0 30px 0;
         font-family: 'Open Sans';
         @include font-color()
     }
@@ -89,5 +88,19 @@
 
     .story__item-build {
         background-image: url(../img/we-build.jpg);
+    }
+}
+
+@media (max-width: $desktop-width) {
+    .story {
+            
+        .story__founded-text {
+            font-family: 'Open Sans';
+            @include font-color();
+        }
+
+        .story__title {
+            min-height: 65px;
+        }
     }
 }
