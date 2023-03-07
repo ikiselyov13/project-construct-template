@@ -5,18 +5,24 @@
     align-items: center;
     background-color: $white-bkg;
     border: 1px solid $white-let;
+
+    .top-menu__list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .top-menu__item {
+        margin: 0 0 0 40px;
+        font-family: 'Open Sans';
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 1.1px;
+        text-align: center;
+    }
 }
 
-.top-menu__list {
-    display: flex;
-    justify-content: space-between;
-}
-
-.top-menu__item {
-    margin: 0 0 0 40px;
-    font-family: 'Open Sans';
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 1.1px;
-    text-align: center;
+@media (max-width: $desktop-width) {
+    .top-menu {
+        width: 730px;
+    }
 }

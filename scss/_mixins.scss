@@ -1,0 +1,17 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin font-color ($font-size: 13px, $line-height: 23px, $color: $grey-let) {
+    font-size: $font-size;
+    line-height: $line-height;
+    color: $color;
+}
+
+@mixin title-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

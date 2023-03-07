@@ -17,3 +17,42 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.wrapper-vert {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    background: $white-bkg;
+    width: 1440px;
+    margin: -1px 0 0 0;
+}
+
+.footer {
+    width: 1440px;
+    margin: -1px 0 0 0;
+    background: $black-bkg;
+}
+
+@media (max-width: $desktop-width) {
+    .container {
+        width: 620px;
+        margin: 0 auto;
+    }
+
+    .main {
+        width: 730px;
+        margin: -1px 0 0 0;
+    }
+
+    .wrapper-vert {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer {
+        width: 730px;
+    }
+}
+
