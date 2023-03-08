@@ -49,6 +49,14 @@
         color: $white-bkg;
 
     }
+
+    .city__pic-content-button:hover {
+     border: solid 2px $black-bkg;
+    }
+
+    .city__pic-content-button:active {
+     color: $grey-let;
+    }
 }
 
 @media (max-width: $desktop-width) {

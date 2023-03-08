@@ -19,6 +19,14 @@
         letter-spacing: 1.1px;
         text-align: center;
     }
+
+    .top-menu__item:hover {
+     color: $blue-let;
+    }
+
+    .top-menu__item:active {
+     color: $grey-let;
+    }
 }
 
 @media (max-width: $desktop-width) {

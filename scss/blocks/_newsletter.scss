@@ -46,6 +46,14 @@
         text-transform: uppercase;
         color: $white-let;
     }
+
+    .newsletter__subscribe-send-button:hover {
+     border: solid 2px $white-bkg;
+    }
+
+    .newsletter__subscribe-send-button:active {
+     color: $grey-let;
+    }
 }
 
 @media (max-width: $desktop-width) {
