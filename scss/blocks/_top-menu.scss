@@ -1,6 +1,6 @@
 .top-menu {
     display: flex;
-    width: 1440px;
+    @include par-per;
     min-height: 65px;
     align-items: center;
     background-color: $white-bkg;

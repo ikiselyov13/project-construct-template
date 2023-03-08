@@ -5,7 +5,9 @@ body {
 }
 
 .container {
-    width: 940px;
+    //width: 940px;
+    width: 65%;
+    //background-color: red;
     margin: 0 auto;
 }
 
@@ -25,12 +27,14 @@ body {
 
 .main {
     background: $white-bkg;
-    width: 1440px;
+    width: 100%;
+    //width: 1440px;
     margin: -1px 0 0 0;
 }
 
 .footer {
-    width: 1440px;
+    width: 100%;
+    //width: 1440px;
     margin: -1px 0 0 0;
     background: $black-bkg;
 }

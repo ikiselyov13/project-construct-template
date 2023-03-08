@@ -1,5 +1,6 @@
 .city {
     min-height: 390px;
+    width: 100%;
 
     .city__transition {
         min-height: 120px;
@@ -10,6 +11,10 @@
         min-height: 500px;
         background-image: url(../img/city.png);
         margin: -4px 0 0 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-position: center;
     }
 
     .city__pic-content {
