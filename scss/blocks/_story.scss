@@ -15,6 +15,10 @@
         line-height: 21px;
         color: $grey-let;
         text-transform: uppercase;
+
+        /*@include tablet {
+            color: red;
+        }*/
     }
 
     .story__title-underline {
@@ -24,9 +28,20 @@
         background-color: $blue-let
     }
 
+    .story__content {
+        display: block;
+
+        @include tablet {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
     .story__founded {
         width: 405px;
         min-height: 260px;
+        margin: 0 50px 0 0;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -39,7 +54,12 @@
         font-weight: 900;
         letter-spacing: 0.2px;
         text-align: left;
-        color: $grey-let
+        color: $grey-let;
+
+        @include tablet {
+            text-align: center;
+            width: 470px;
+        }
     }
 
     .story__founded-title-konstruct {
@@ -49,21 +69,34 @@
     .story__founded-text {
         margin: 30px 0 30px 0;
         font-family: 'Open Sans';
-        @include font-color()
+        @include font-color();
+
+        @include tablet {
+            text-align: center;
+            width: 470px;
+        }
     }
 
     .story__list {
         display: flex;
         justify-content: space-between;
         min-height: 225px;
-        width: 490px;
+        width: 470px;
+        margin: 0 0 30px 50px;
+        float: right;
+
+        @include tablet {
+            text-align: center;
+            margin: 0 0 30px 0;
+        }
     }
 
     .story__item {
         width: 150px;
         min-height: 225px;
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
+        background-position: top;
     }
 
     .story__item-text {
@@ -84,6 +117,7 @@
 
     .story__item-manage {
         background-image: url(../img/we-manage.jpg);
+        margin: 0 10px 0 10px;
     }
 
     .story__item-build {

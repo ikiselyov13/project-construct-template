@@ -1,5 +1,6 @@
 .newsletter {
-    width: 1440px;
+    width: 100%;
+    //width: 1440px;
     min-height: 100px;
     background: $black-bkg;
     margin: -6px 0 0 0;
@@ -44,6 +45,14 @@
         text-align: center;
         text-transform: uppercase;
         color: $white-let;
+    }
+
+    .newsletter__subscribe-send-button:hover {
+     border: solid 2px $white-bkg;
+    }
+
+    .newsletter__subscribe-send-button:active {
+     color: $grey-let;
     }
 }
 

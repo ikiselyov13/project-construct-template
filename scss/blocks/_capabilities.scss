@@ -2,6 +2,8 @@
 
     .capabilities__desc {
         margin: 120px 0 0 0;
+        display: flex;
+        flex-wrap: wrap;
     }
     
     .capabilities__title {
@@ -56,12 +58,21 @@
         color: $white-bkg;
     }
 
+    .capabilities__button:hover {
+     border: solid 2px $black-bkg;
+    }
+
+    .capabilities__button:active {
+     color: $grey-let;
+    }
+
     .capabilities__list {
         margin: 80px 0 0 0;
     }
 
     .capabilities__item {
-        width: 295px;
+        width: 251px;
+        //width: 31%;
         min-height: 330px;
         border: solid 1px $grey-bord;
         padding: 38px 22px 38px 22px;
